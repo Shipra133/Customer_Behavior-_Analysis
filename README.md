@@ -114,9 +114,6 @@ The main objective is to derive actionable insights that can help businesses imp
 │
 └── README.md
 ```
-
----
-
 ## 🪄 How to Run
 
 ### Prerequisites
@@ -126,36 +123,6 @@ The main objective is to derive actionable insights that can help businesses imp
 * Power BI Desktop
 * Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sqlalchemy`, `psycopg2`
 
-### Steps
-
-1. **Clone this repository**
-
-   ```bash
-   git clone https://github.com/yourusername/customer-behavior-analysis.git
-   cd customer-behavior-analysis
-   ```
-2. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run Python notebook**
-
-   ```bash
-   jupyter notebook notebooks/customer_shopping_behavior.ipynb
-   ```
-4. **Run SQL scripts**
-
-   * Open `Customer_behavior_pgsql.sql` in pgAdmin or your SQL client.
-   * Execute queries to generate analytical results.
-5. **Open Power BI dashboard**
-
-   * File: `dashboard/customer_behavior.pbix`
-6. **View presentation**
-
-   * Open the Gamma link in `presentation/gamma_presentation_link.txt`
-
----
 
 ## 💡 Future Enhancements
 
